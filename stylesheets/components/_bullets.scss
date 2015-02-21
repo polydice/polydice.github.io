@@ -22,11 +22,12 @@
   }
 
   img {
+    border-radius: 15px;
     max-width: 100%;
   }
   //////////////////////////////////////////////////////////////////////////////////
 
-  $icon-bullet-size: 3.5em;
+  $icon-bullet-size: 5em;
 
   @include display(flex);
   @include flex-wrap(wrap);
@@ -42,20 +43,20 @@
   .bullet-icon {
     float: left;
     height: $icon-bullet-size;
-    padding: $icon-bullet-size / 4;
+    padding: $icon-bullet-size / 8;
     width: $icon-bullet-size;
   }
 
   .bullet-content {
-    margin-left: $icon-bullet-size * 1.4;
+    margin-left: $icon-bullet-size * 1.1;
     margin-bottom: 2em;
   }
 
   h3 {
     border-bottom: 1px solid transparentize($base-font-color, 0.8);
     display: inline-block;
-    font-size: $icon-bullet-size / 2.5;
-    margin-bottom: $icon-bullet-size / 6;
-    padding-top: $icon-bullet-size / 7;
+    font-size: $icon-bullet-size / 3.5;
+    margin-bottom: $icon-bullet-size / 8;
+    padding-top: $icon-bullet-size / 8;
   }
 }
