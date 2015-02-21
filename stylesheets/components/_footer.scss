@@ -1,0 +1,28 @@
+.footer {
+  ///////////////////////////////////////////////////////////////////////////////////
+  $base-spacing: 1.5em !default;
+  $base-accent-color: #477DCA !default;
+  $medium-screen: em(640) !default;
+  $large-screen: em(860) !default;
+
+  $footer-color: black;
+  $footer-disclaimer-color: transparentize($footer-color, 0.6);
+
+  padding: ($base-spacing * 2) $gutter;
+  width: 100%;
+
+  hr {
+    border: 1px solid transparentize($footer-disclaimer-color, 0.3);
+    margin: 0 auto $base-spacing;
+    width: 12em;
+  }
+
+  p {
+    color: $footer-disclaimer-color;
+    font-size: 0.9em;
+    line-height: 1.5em;
+    margin: auto;
+    max-width: 35em;
+    text-align: center;
+  }
+}

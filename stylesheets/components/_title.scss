@@ -1,0 +1,12 @@
+h2 {
+  font-size: 1.4em;
+  line-height: 1.6em;
+  margin: auto;
+  max-width: 35em;
+  padding: $base-spacing $gutter;
+  text-align: center;
+
+  @include media($large-screen) {
+    font-size: 1.6em;
+  }
+}
