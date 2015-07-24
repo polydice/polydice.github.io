@@ -1,6 +1,6 @@
 var bittersMap = (function () {
-  var myLatlng = new google.maps.LatLng(25.080803, 121.564737),
-  mapCenter = new google.maps.LatLng(25.080803, 121.564737),
+  var myLatlng = new google.maps.LatLng(25.041839, 121.532480),
+  mapCenter = new google.maps.LatLng(25.041839, 121.532480),
   mapCanvas = document.getElementById('map_canvas'),
   mapOptions = {
     center: mapCenter,
@@ -17,7 +17,7 @@ var bittersMap = (function () {
     '</div>'+
     '<h1 id="firstHeading" class="firstHeading">Polydice, Inc.</h1>'+
     '<div id="bodyContent"'+
-    '<p>3F., No.32, Jihu Rd., Neihu Dist., Taipei City 11492</p>'+
+    '<p>12F., No.50, Sec. 1, Xinsheng S. Rd., Zhongzheng Dist., Taipei City 10059</p>'+
     '</div>'+
     '</div>',
   infowindow = new google.maps.InfoWindow({
